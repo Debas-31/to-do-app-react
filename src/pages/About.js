@@ -1,8 +1,9 @@
-import React from "react";
-import { Link, useRoutes, Route } from "react-router-dom";
-import SinglePage from "./SinglePage";
+import React from 'react';
+import { Link, matchRoutes, Route } from 'react-router-dom';
+import SinglePage from './SinglePage';
 
 const About = () => {
+  const { url, path } = matchRoutes();
   return (
     <div className="about__content">
       <ul className="about__list">
@@ -19,5 +20,4 @@ const About = () => {
     </div>
   );
 };
-
 export default About;

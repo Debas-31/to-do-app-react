@@ -40,9 +40,8 @@ const Navbar = () => {
           <li key={link.id}>
             <NavLink
               to={link.path}
-              activeClassName="active-link"
-              exact
               onClick={() => closeMenu()}
+              className={(data) => (data.isActive ? 'active-link' : '')}
             >
               {link.text}
             </NavLink>
