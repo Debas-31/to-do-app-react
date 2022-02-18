@@ -19,6 +19,8 @@
 - Linters
 - Vscode
 
+## Live Demo
+>[Click Here](https://todo-app-exercise-react.netlify.app/)
 
 ## Getting Started
 
